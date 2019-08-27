@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+    <bean id="messageServ" class="fr.formation.inti.beans.ScopeBean" scope="singleton" />
+    
+<!-- Si tu changes le scope entre sigleton et prototype, tu verras que le comportement change.
+A toi de voir la différence -->
+
+</beans>
