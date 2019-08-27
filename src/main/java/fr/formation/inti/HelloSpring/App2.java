@@ -20,7 +20,7 @@ public class App2 {
         System.out.println(message1.toString());
         System.out.println();
         
-        
+        System.out.println("lel");
         // Retrieve it again.
         ScopeBean message2 = ac.getBean("messageServ", ScopeBean.class);
         System.out.println(message2.toString());
